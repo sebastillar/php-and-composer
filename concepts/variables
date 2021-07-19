@@ -1,0 +1,32 @@
+<?php
+
+//Asignación
+$num = 9;
+$lang = [
+    'es' => 'español',
+    'en' => 'english'
+];
+
+//Aritmética
+echo "Suma 2 + 2 ". ((int) 2 + (int) 2);
+echo "Resta 2 - 2 ". ((int) 2 - (int) 2);
+echo "Producto 2 * 2 ". 2 * 2;
+echo "División 2 / 2 ". 2 / 2;
+echo "Módulo 2 % 2 ". 2 % 2;
+echo "Potencia 2 ** 2 ". 2 ** 2; 
+
+//Comparación
+
+//Igual ==, valor '9' == 9 => true
+//Igual ===, valor y tipo 9 === 9 => true
+//Igual ===, valor y tipo '9' === 9 => false
+//Distinto !=, valor
+//Distinto !==, valor y tipo
+// <, >, <=, >=
+
+//Variables variables
+$app = 'name';
+$name = 'Sebastian';
+
+echo $app; //Imprime name
+echo $$app; //Imprime Sebastian
